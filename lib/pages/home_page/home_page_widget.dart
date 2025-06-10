@@ -152,6 +152,14 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     test: true,
                   ),
                 ),
+                Container(
+                  width: 300.0,
+                  height: 300.0,
+                  child: custom_widgets.ProgressBar(
+                    width: 300.0,
+                    height: 300.0,
+                  ),
+                ),
               ],
             ),
           ),
